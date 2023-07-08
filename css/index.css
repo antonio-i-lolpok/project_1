@@ -8,7 +8,6 @@ body{
     margin: 0 auto;
     width: 1400px;
     background-color: white;
-    padding-left: 125px;
 }
 
 h1 {
@@ -21,13 +20,15 @@ h1 {
     margin-bottom: 30px;
     letter-spacing: -1.8px;
     margin-right: 319px;
+    margin-left: 125px;
 }
-.mi_com {
+.Htextp {
     color: #FFF;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    
 
 }
 h2 {
@@ -37,8 +38,11 @@ h2 {
     font-weight: 400;
     line-height: normal;
     margin-top: 150px;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    margin-left: 125px;
 }
-.studiya_osn {
+.studio_founded {
     color: var(--text, #121212);
     font-size: 45px;
     font-style: normal;
@@ -48,22 +52,26 @@ h2 {
     margin-bottom: 30px;
     margin-right: 224px;
     letter-spacing: -1.35px;
+    padding-left: 125px;
 }
 
-.Wphoto{
+.Hphoto{
+    position: relative;
+    margin-left: 125px;
     width: 1150px;
     height: 500px;
     background-image: url(../расходники/наивысшеефото\ 1.png);
 }
-.Wtext{
-    padding-top: 379px;
-    padding-left: 40px;
-    padding-right: 680px;
-    padding-bottom: 40px;
+.Htext{
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 430px;
     letter-spacing: -0.6px;
 }
 
 .hr {
+    margin-left: 125px;
     display: block;
     height: 67px;
     width: 255px;
@@ -83,4 +91,114 @@ h2 {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 20px;
+}
+
+.box1_1 {
+    margin-left: 125px;
+    margin-top: 30px;
+ }
+
+.box1_1__img {
+    width: 1150px;
+    height: 450px;
+}
+
+.box1_1__h3 {
+    margin-top: 15px;
+    padding-bottom: 15px;
+    color: #121212;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+.box1_1__href {
+    color: var(--accent, #AD1818);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    text-decoration: none;
+ }
+
+ .box1_2 {
+    margin-left: 125px;
+    margin-top: 90px;
+ }
+
+ .box1_3 {
+    margin-left: 125px;
+    margin-top: 90px;
+ }
+
+ .all_projects {
+    margin-top: 90px;
+    display: block;
+    width: 100%;
+    height: 153px;
+    text-align: center;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    border-radius: 5px;
+    border: 1px solid var(--accent, #AD1818);
+    cursor: pointer;
+}
+
+.all_projects_txt {
+    color: var(--accent, #AD1818);
+    text-align: center;
+    text-decoration: none;
+    font-family: Manrope;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+ }
+
+ .all_projects:hover {
+    background-color: #AD1818;
+}
+
+.all_projects:hover .all_projects_txt {
+    color: white;
+}
+
+.blacksection {
+    margin-top: 150px;
+    height: 1844px;
+    background-color: #121212;
+}
+  
+.blacksection_uslugi {
+    margin-bottom: 34px;
+    padding-top: 151px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+}
+
+.blacksection__box2_1__img {
+    width: 1150px;
+    height: 270px;
+    margin-left: 125px;
+}
+
+.blacksection__box2_1__p {
+    margin-bottom: 60px;
+    margin-top: 15px;
+    margin-left: 125px;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
 }
