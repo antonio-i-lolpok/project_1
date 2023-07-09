@@ -134,9 +134,10 @@ h2 {
  }
 
  .all_projects {
+    margin-left: 125px;
     margin-top: 90px;
     display: block;
-    width: 100%;
+    width: 1150px;
     height: 153px;
     text-align: center;
     padding-top: 56px;
@@ -201,4 +202,8 @@ h2 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.9px;
+}
+
+.blacksection__box2_1__p:last-child {
+    margin-bottom: 0px;
 }
