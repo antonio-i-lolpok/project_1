@@ -204,6 +204,6 @@ h2 {
     letter-spacing: -0.9px;
 }
 
-.blacksection__box2_1__p:last-child {
+.container_black li:last-child .blacksection__box2_1__p {
     margin-bottom: 0px;
 }
