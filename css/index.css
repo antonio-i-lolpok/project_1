@@ -278,7 +278,7 @@ h2 {
 
 .ful_jpg {
     height: 717px;
-    background-image: url("/расходники/fuljpg.jpg");
+    background-image: url("../расходники/fuljpg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
