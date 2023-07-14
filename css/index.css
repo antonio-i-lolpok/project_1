@@ -4,15 +4,18 @@ html {
 
 body{
     font-family: 'Manrope', sans-serif;
-    background-color: #F5F5F5;
+    background-color: white;
     width: 100%;
 }
 
-.main_container{
+
+.before_width_1400px {
     margin: 0 auto;
     width: 1400px;
-    background-color: white;
-
+    background-color:  white;
+    height: auto;
+    overflow: hidden;
+    height: 3868px;
 }
 
 
@@ -51,7 +54,7 @@ body{
 
 .nav_link_txt:hover {
     text-decoration: underline;
-    color: rgb(159, 172, 203);
+    color: #121212;;
     opacity: 0.5;
 }
 
@@ -66,7 +69,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: 60px;
-    padding-top: 128px;
+    padding-top: 68px;
     margin-bottom: 30px;
     letter-spacing: -1.8px;
     margin-right: 319px;
@@ -87,7 +90,7 @@ h2 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 150px;
+    padding-top: 150px;
     letter-spacing: -0.54px;
     text-transform: uppercase;
     margin-left: 125px;
@@ -215,9 +218,12 @@ h2 {
     background-color: #AD1818;
 }
 
-.all_projects_txt:hover .all_projects_txt {
+.all_projects_txt:hover .all_projects {
     color: white;
 }
+
+
+
 
 .blacksection_services{
     width: 100%;
@@ -225,9 +231,15 @@ h2 {
     background-color: #121212;
     
     
+}
+
+.blacksection_width_1400px{
+    margin: 0 auto;
+    width: 1400px;
+    height: 1844px;
 
 }
-  
+
 .blacksection_services__txt {
     margin-bottom: 34px;
     padding-top: 151px;
@@ -245,6 +257,7 @@ h2 {
     width: 1150px;
     height: 270px;
     margin-left: 125px;
+
 }
 
 .services__box2_1__p {
@@ -263,3 +276,163 @@ h2 {
     margin-bottom: 0px;
 }
 
+.ful_jpg {
+    height: 717px;
+    background-image: url("/расходники/fuljpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.ful_jpg_txt{
+    width: 551px;
+    padding-left: 125px;
+    padding-top: 575px;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+
+}
+.ful_jpg_width_1400px {
+    margin: 0 auto;
+    width: 1400px;
+    height: 717px
+}
+
+
+.after_fullscreen_photo_width_1400px {
+    height: 553px;
+    width: 1400px;
+    margin: 0 auto;
+    background-color:  white;
+}
+
+.contact_txt {
+    margin-bottom: 32px;
+    padding-top: 150px;
+    padding-left: 125px;
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+}
+
+.contact_txt:before {
+    margin-left: -5px;
+    content: '';
+    display: block;
+    padding-bottom: 12px;
+    background-repeat: no-repeat;
+    background-image: url("/расходники/phone_contact.png");
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+.phone_number{   
+    margin-left: 125px;
+    color:  #121212;
+    text-decoration: none; 
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; 
+    letter-spacing: -1.8px;
+}
+.phone_number:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+    color: var(--text, #121212);
+}
+
+.mail {
+
+    margin-left: 125px;
+    color: var(--text, #121212);
+    font-size: 60px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; 
+    letter-spacing: -1.8px;
+}
+
+.mail_30px{
+    padding-top: 30px;
+}
+
+.mail:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+    color: var(--text, #121212);
+}
+
+.footer {
+    width: 100%;
+    height: 229px;
+    background-color: #121212;
+}
+
+.footer_width_1400px {
+    margin: 0 auto;
+    width: 1400px;
+    height: 229px;
+    color: #FFF;
+}
+
+
+.footer_about_us_1:first-child {
+    margin-left: 470px;
+}
+
+
+.footer_about_us {
+    padding-top: 60px;
+    margin: 0 auto;
+}
+
+
+.footer_about_us_1 {
+    margin-right: 54px;
+    display: inline-block;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+}
+
+.footer_about_us_1_1 {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.footer_about_us_1_1:hover {
+    color: #FFF;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.interior_design_studio {
+    padding-top: 87px;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    opacity: 0.5;
+}
