@@ -329,7 +329,7 @@ h2 {
     display: block;
     padding-bottom: 12px;
     background-repeat: no-repeat;
-    background-image: url("/расходники/phone_contact.png");
+    background-image: url("../расходники/phone_contact.png");
     width: 24px;
     height: 24px;
 }
